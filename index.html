@@ -36,24 +36,28 @@
 
 <body>
 
-  <div class=" max-width mx-auto">
-    <header class="container">
+  <div class="max-width mx-auto">
+    <header class="container-lg">
 
-      <nav class="nav">
-        <div>
-          <a href="#"><img src="./assets/images/logo.svg" alt="logo"></a>
+      <div class="row">
+        <div class="col-11">
+          <nav class="nav">
+            <div>
+              <a href="#"><img src="./assets/images/logo.svg" alt="logo"></a>
+            </div>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+            <div class="d-none d-lg-block">
+              <a href="#" class="btn btn-gradient-color">Request Invite</a>
+            </div>
+          </nav>
         </div>
-        <ul class="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-        <div>
-          <a href="#" class="btn btn-gradient-color">Request Invite</a>
-        </div>
-      </nav>
+      </div>
     </header>
 
   </div>
@@ -62,7 +66,7 @@
     <section class="hero-section">
       <div class="container-fluid">
         <div class="row justify-content-between align-items-center">
-          <div class="col-lg-4 col-md-5 mx-auto ">
+          <div class="col-lg-4 col-sm-5 col-11 mx-auto text-center text-sm-start my-5 my-sm-0 order-2 order-sm-1">
             <h1>Next generation digital banking</h1>
             <p class="my-4">
               Take your financial life online. Your Easybank account will be a one-stop-shop
@@ -70,7 +74,7 @@
             </p>
             <button type="button" class="btn btn-gradient-color"> Request Invite</button>
           </div>
-          <div class="col-lg-7 col-md-6 hero-bg pe-0 d-none">
+          <div class="col-lg-7 col-md-6 col-sm-6 hero-bg pe-0 order-1 order-sm-2">
             <div class="hero-mockups"></div>
           </div>
         </div>
@@ -79,8 +83,8 @@
     </section>
     <section class="our-services pb-5">
       <div class="container-lg px-5 px-lg-3">
-        <div class="row text-center text-md-start">
-          <div class="col-lg-6 ">
+        <div class="row text-center text-sm-start">
+          <div class="col-md-6 col-sm-7">
             <h2>Why choose Easybank?</h2>
             <p>
               We leverage Open Banking to turn your bank account into your financial hub. Control
@@ -88,7 +92,7 @@
             </p>
           </div>
         </div>
-        <div class="row mt-5 text-center text-md-start">
+        <div class="row mt-5 text-center text-sm-start">
           <div class="col-md-3 col-sm-6 mb-3 mb-md-0">
             <img src="./assets/images/icon-online.svg" alt="icon-online" class="img-fluid mb-2">
             <h5 class="my-4">Online Banking</h5>
@@ -127,29 +131,29 @@
     </section>
     <section class="articles-section py-5">
       <div class="container-lg px-5 px-lg-3">
-        <div class="row my-md-5 my-3 mb-3">
-          <div class="col-12 text-center text-md-start">
+        <div class="row my-md-5 my-3 mb-4">
+          <div class="col-12 text-center text-sm-start">
             <h3> Latest Articles</h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-           <div class="article-container h-100">
-            <div class="img-container">
-              <img src="./assets/images/image-currency.jpg" alt="image-currency" class="img-fluid">
+          <div class="col-md-3 col-6 mb-4 mb-md-0 custom-xs">
+            <div class="article-container h-100">
+              <div class="img-container">
+                <img src="./assets/images/image-currency.jpg" alt="image-currency" class="img-fluid">
+              </div>
+              <div class="px-4 py-3 ">
+                <span class="author">By Claire Robinson</span>
+                <h6 class="title">Receive money in any currency with no fees</h6>
+                <p class="description">
+                  The world is getting smaller and we’re becoming more mobile. So why should you be
+                  forced to only receive money in a single …
+                </p>
+              </div>
             </div>
-            <div class="px-4 py-3 ">
-              <span class="author">By Claire Robinson</span>
-              <h6 class="title">Receive money in any currency with no fees</h6>
-              <p class="description">
-                The world is getting smaller and we’re becoming more mobile. So why should you be
-                forced to only receive money in a single …
-              </p>
-            </div>
-           </div>
           </div>
 
-          <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <div class="col-md-3 col-6 mb-4 mb-md-0 custom-xs">
             <div class="article-container h-100">
               <div class="img-container">
                 <img src="./assets/images/image-restaurant.jpg" alt="image-restaurant" class="img-fluid">
@@ -166,7 +170,7 @@
 
           </div>
 
-          <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <div class="col-md-3 col-6 mb-4 mb-md-0 custom-xs">
             <div class="article-container h-100">
               <div class="img-container">
                 <img src="./assets/images/image-plane.jpg" alt="image-plane" class="img-fluid">
@@ -183,20 +187,20 @@
 
           </div>
 
-          <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-           <div class="article-container h-100">
-            <div class="img-container">
-              <img src="./assets/images/image-confetti.jpg" alt="image-confetti" class="img-fluid">
+          <div class="col-md-3 col-6 mb-4 mb-md-0 custom-xs">
+            <div class="article-container h-100">
+              <div class="img-container">
+                <img src="./assets/images/image-confetti.jpg" alt="image-confetti" class="img-fluid">
+              </div>
+              <div class="px-4 py-3">
+                <span class="author"> By Claire Robinson</span>
+                <h6 class="title">Our invite-only Beta accounts are now live!</h6>
+                <p class="description">
+                  After a lot of hard work by the whole team, we’re excited to launch our closed beta.
+                  It’s easy to request an invite through the site ...
+                </p>
+              </div>
             </div>
-            <div class="px-4 py-3">
-              <span class="author"> By Claire Robinson</span>
-              <h6 class="title">Our invite-only Beta accounts are now live!</h6>
-              <p class="description">
-                After a lot of hard work by the whole team, we’re excited to launch our closed beta.
-                It’s easy to request an invite through the site ...
-              </p>
-            </div>
-           </div>
 
           </div>
         </div>
