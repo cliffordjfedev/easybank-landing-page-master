@@ -39,24 +39,38 @@
   <div class="max-width mx-auto">
     <header class="container-lg">
 
-      <div class="row">
-        <div class="col-11">
-          <nav class="nav">
+      <div class="row my-3 my-lg-0">
+        <nav class="col-12 px-0 ">
+          <div class="col-md-11 col-12 px-3 px-md-1 col-lg-12 nav mx-auto bg-warningd py-2 my-1">
             <div>
               <a href="#"><img src="./assets/images/logo.svg" alt="logo"></a>
             </div>
-            <ul class="list-unstyled">
+            <ul class="list-unstyled d-none d-lg-flex desktop-menu">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Careers</a></li>
             </ul>
-            <div class="d-none d-lg-block">
-              <a href="#" class="btn btn-gradient-color">Request Invite</a>
+
+            <div class="btn-container">
+              <a href="#" class="btn btn-gradient-color d-none d-lg-block">Request Invite</a>
+              <button id="btnMenu" type="button" class="d-block d-lg-none btn"><img
+                  src="./assets/images/icon-hamburger.svg" alt="icon-hamburger"></button>
             </div>
-          </nav>
-        </div>
+          </div>
+          <div class="mobile-nav close" id="mobileNav">
+            <div class="mobile-menu pt-4">
+              <ul class="list-unstyled col-11 p-4 mx-auto card">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
 
@@ -256,6 +270,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
