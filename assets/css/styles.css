@@ -20,6 +20,7 @@ header .btn-container button.btn {
   padding: 0;
   box-shadow: none;
 }
+
 .mobile-nav {
   display: none;
   justify-content: space-between;
